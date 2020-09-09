@@ -1,0 +1,79 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Welcome To Colaboratory",
+      "provenance": [],
+      "collapsed_sections": [],
+      "toc_visible": true,
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/caioosilva/caio-probabilidade-e-estatistica/blob/master/aula%2009/09\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "xpX97N4AA_GA",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 131
+        },
+        "outputId": "5e4b386c-1193-4293-e546-14838f2e58aa"
+      },
+      "source": [
+        "'''L1 = [9, 11, 'true', True, 55.4, ['outra lista', 14, False]]\n",
+        "print(L1)\n",
+        "L1.insert(3, 'qq valor')\n",
+        "print(L1)'''\n",
+        "\n",
+        "'''L2 = [[1, 3, 5, 7, 9], [2, 4, 6, 8, 10]]\n",
+        "print(L2[0][3])\n",
+        "print(L2[1][4])'''\n",
+        "\n",
+        "'''#dicionarios:\n",
+        "Dic1 = {'virtus':999999, 'A3':139999, 'sentra':90000, 41:'cachaca'}\n",
+        "print(Dic1[41])'''\n",
+        "\n",
+        "\n",
+        "'''Dic2 = {'carne':3.99, 'carne':4.99, 'carne':2.99, 4:2, 'carne':1.99}\n",
+        "print(Dic2['carne'])#jeito errado de usar dicionario\n",
+        "#usar uma key pra um valor'''\n",
+        "\n",
+        "\n",
+        "'''Dic3 = {'L1':['artur', 'henrique'], L2:['marcos', 'gabriel']}\n",
+        "print(Dic3['L1'][1])'''\n",
+        "\n",
+        "\n",
+        "Dic4 = {'L1'{'Func1':'artur', 'Func2':'henrique'}}, 'L2':{'Func1':'marcus', 'func2':'gabriel'}\n",
+        "print(Dic4['L1']['Func1'])"
+      ],
+      "execution_count": 17,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-17-96d543a627ce>\"\u001b[0;36m, line \u001b[0;32m24\u001b[0m\n\u001b[0;31m    Dic4 = {'L1'{'Func1':'artur', 'Func2':'henrique'}}, 'L2':{'Func1':'marcus', 'func2':'gabriel'}\u001b[0m\n\u001b[0m                ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
